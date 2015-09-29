@@ -1,4 +1,4 @@
-{"body":[
+var person = [
   {
     "id": "56078e6ab6472632750237d9",
     "balance": "$1,688.84",
@@ -778,4 +778,4 @@
     "greeting": "Hello, Debbie Mayo! You have 3 unread messages.",
     "favoriteFruit": "banana"
   }
-], "status": true}
+]
