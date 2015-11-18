@@ -18,7 +18,7 @@ var MyModel = Backbone.Model.extend({
 	    "greeting": "",
 	    "favoriteFruit": ""
 	},
-	url: '../../data/person.json'/*,
+	url: 'data.json'/*,
 	parse : function(response, options) {
 		console.log(options);
 		return response;

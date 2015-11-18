@@ -1,6 +1,11 @@
 var MyCollection = Backbone.Collection.extend({
 	model: MyModel,
-	url: '../../data/person.json',
+	urlRoot: '../../data/',
+	//comparator: 'name',
+	url: function(){
+		console.log('url',arguments);
+		return this.urlRoot + 'person.json'
+	},
 	parse: function(response, options){
 		return response.body;
 	}
